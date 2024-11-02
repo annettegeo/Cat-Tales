@@ -28,16 +28,12 @@ const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img
 // Function to return timestamps for each word in the audio
 const getWordTimestamps = () => {
   return [
-    { start: 0.05, end: 0.2 },
-    { start: 0.3, end: 0.65 },
-    { start: 0.7, end: 1.0 },
+    { start: 0.05, end: 1.00 },
     { start: 1.2, end: 1.35 },
-    { start: 1.45, end: 1.6 },
-    { start: 1.7, end: 1.75 },
+    { start: 1.45, end: 1.75},
     { start: 1.8, end: 2.1 },
     { start: 2.15, end: 2.9 },
-    { start: 2.95, end: 3.95 },
-    { start: 4.0, end: 4.1 },
+    { start: 2.95, end: 4.1},
     { start: 4.15, end: 4.3 },
     { start: 4.4, end: 4.5 },
     { start: 4.6, end: 5.0 },
