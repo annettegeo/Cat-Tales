@@ -1,0 +1,71 @@
+#root {
+
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('/bg.jpeg'); /* Full-screen background */
+  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps the background in place */
+  color: white;
+  text-align: center;
+}
+
+.cat-container {
+  background: rgba(0, 0, 0, 0.603); /* Darker overlay for readability */
+  padding: 40px;
+  border-radius: 15px;
+  width: 1000px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-image {
+  width: 250px; /* Increased size for visibility */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.text-display {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #f0f0f0; /* Lighter text color for better contrast */
+}
+
+.counter {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #ccc; /* Slightly lighter color for the counter */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px; /* Add some space above the buttons */
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background: #555; /* Darker button color */
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-container button:hover {
+  background: #777777cc; /* Lighter color on hover */
+}
