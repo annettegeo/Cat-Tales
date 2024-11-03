@@ -1,7 +1,4 @@
 #root {
-
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
@@ -9,9 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 800vh;
-  background-image: url('/bg.jpeg'); /* Full-screen background */
-  
+  min-height: 100vh; /* Adjusted to fit the screen height */
+  background-image: url('/bg.png'); /* Full-screen background */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; /* Keeps the background in place */
@@ -20,6 +16,10 @@
 }
 
 .cat-container {
+  position: fixed; /* Make the container fixed */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center it both vertically and horizontally */
   background: rgba(0, 0, 0, 0.603); /* Darker overlay for readability */
   padding: 40px;
   border-radius: 15px;
@@ -70,5 +70,5 @@
 }
 
 .button-container button:hover {
-  background:  rgba(70, 72, 165, 0.9); /* Lighter color on hover */
+  background: rgba(70, 72, 165, 0.9); /* Lighter color on hover */
 }
