@@ -4,6 +4,8 @@
 
 .app {
   display: flex;
+  font-family: "Jersey 25", sans-serif;
+  font-size: 35px;
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Adjusted to fit the screen height */
@@ -38,7 +40,7 @@
 
 .text-display {
   margin-top: 20px;
-  font-size: 27px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 1.5;
   color: #f0f0f0; /* Lighter text color for better contrast */
