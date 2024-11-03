@@ -8,25 +8,25 @@
   font-size: 35px;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Adjusted to fit the screen height */
-  background-image: url('/bg.png'); /* Full-screen background */
+  min-height: 100vh; 
+  background-image: url('/bg.png'); 
   background-size: cover;
   background-position: center;
-  background-attachment: fixed; /* Keeps the background in place */
+  background-attachment: fixed; 
   color: white;
   text-align: center;
 }
 
 .cat-container {
-  position: fixed; /* Make the container fixed */
+  position: fixed; 
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Center it both vertically and horizontally */
-  background: rgba(0, 0, 0, 0.603); /* Darker overlay for readability */
+  transform: translate(-50%, -50%); 
+  background: rgba(0, 0, 0, 0.4); 
   padding: 40px;
   border-radius: 15px;
-  width: 90%; /* Adjusted for responsiveness */
-  max-width: 700px; /* Maximum width for larger screens */
+  width: 90%; 
+  max-width: 700px; 
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -34,8 +34,8 @@
 }
 
 .cat-image {
-  width: 100%; /* Full width for responsiveness */
-  max-width: 400px; /* Limit maximum size */
+  width: 100%;
+  max-width: 400px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -45,26 +45,26 @@
   font-size: 30px;
   font-weight: 800;
   line-height: 1.5;
-  color: #f0f0f0; /* Lighter text color for better contrast */
+  color: #f0f0f0; 
 }
 
 .counter {
   margin: 10px 0;
   font-size: 18px;
   font-weight: 600;
-  color: #f8e5e5; /* Slightly lighter color for the counter */
+  color: #f8e5e5; 
 }
 
 .button-container {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 20px; /* Add some space above the buttons */
+  margin-top: 20px; 
 }
 
 .button-container button {
   padding: 10px 20px;
-  background: #733c75; /* Darker button color */
+  background: #733c75; 
   border: none;
   color: white;
   font-weight: 500;
@@ -74,55 +74,28 @@
 }
 
 .button-container button:hover {
-  background: rgba(70, 72, 165, 0.9); /* Lighter color on hover */
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  .app {
-    font-size: 28px; /* Smaller font size for tablets */
-  }
-
-  .cat-container {
-    padding: 20px; /* Reduce padding on smaller screens */
-    width: 95%; /* Make the container slightly wider */
-  }
-
-  .cat-image {
-    max-width: 90%; /* Adjust image width */
-  }
-
-  .text-display {
-    font-size: 24px; /* Adjust text size */
-  }
-
-  .counter {
-    font-size: 16px; /* Adjust counter size */
-  }
-
-  .button-container button {
-    padding: 8px 16px; /* Smaller button size */
-  }
+  background: rgba(70, 72, 165, 0.9); 
 }
 
 @media (max-width: 480px) {
   .app {
-    font-size: 24px; /* Smaller font size for mobile */
+    font-size: 24px; 
   }
 
   .cat-container {
-    padding: 15px; /* Further reduce padding */
+    padding: 10px 25px; /* Added padding for mobile */
+    width: 85%; /* Slightly smaller width */
   }
 
   .text-display {
-    font-size: 20px; /* Smaller text size */
+    font-size: 20px; 
   }
 
   .counter {
-    font-size: 14px; /* Adjust counter size */
+    font-size: 14px; 
   }
 
   .button-container button {
-    padding: 6px 12px; /* Even smaller button size */
+    padding: 6px 12px; 
   }
 }
