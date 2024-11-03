@@ -27,7 +27,7 @@ https://github.com/user-attachments/assets/45fdd232-da11-4756-834e-fd4245a0e6ac
 - **Reset**: In case you’ve gone overboard with the meows (it happens to the best of us), you can hit reset and come back to a place of zen (or the quiet before the next meow storm).
 
 - **Remove Meow**: Accidentally meowed too much? we understand, You can shave off a meow. Tragic, but necessary.
-# Screenshots (Add at least 3)
+# Screenshots
 
 
 ![Workings](public/sc1.png)
@@ -103,3 +103,5 @@ It’s a humorous reminder that sometimes, the simplest joys in life come from a
 You can start somewhere , somewhen , and be just as great ,even greater , not meow composing but better things sure.
 
 **Happy Meowing!** 🐾
+
+A big Thank you to Tinkerhub and Useless Projects for allowing us to think outside the box and create something that is funnn and for laughs , learned a lot during the process ,and laughed a lot during the process ^ ^ !
