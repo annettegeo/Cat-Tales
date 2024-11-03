@@ -2,6 +2,17 @@
 
 Welcome to **Meow Symphony**, the groundbreaking(far fetched) app that lets you orchestrate a choir of "meows" with just the power of… your index finger ! who knew clicking on a button could bring such joy (a specific kind)😸
 
+
+## Basic Details
+### Team Name: HUSE
+
+
+### Team Members
+- Team Lead: Andrea Tresa Tom - SJCET
+- Member 2: Fida Fathim- SJCET
+- Member 3: Annette George - SJCET
+
+
 ## The Inspiration 🐱
 
 Ever wished you could compose an epic musical masterpiece made up entirely of cat meows? No? Well, now that idea exists in this world anyway, and you’re welcome. This app provides the perfect... or should i say purr-fecc... blend of uselessness and an existential realization of how far we’ve come with technology and all the ways to use it and make it useless — all while giving you an auditory adventure filled with endless(it ends , only if you wish it does ) meowing.
@@ -16,6 +27,17 @@ https://github.com/user-attachments/assets/45fdd232-da11-4756-834e-fd4245a0e6ac
 - **Reset**: In case you’ve gone overboard with the meows (it happens to the best of us), you can hit reset and come back to a place of zen (or the quiet before the next meow storm).
 
 - **Remove Meow**: Accidentally meowed too much? we understand, You can shave off a meow. Tragic, but necessary.
+# Screenshots (Add at least 3)
+
+
+![Workings](public/sc1.png)
+
+The landing screen , ready to start the meows 
+
+![Workings](public/sc2.png)
+Progress of Meows
+
+
 
 ## Technical Details (For the Curious) 👨‍💻👩‍💻
 
