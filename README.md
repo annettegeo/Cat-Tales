@@ -24,19 +24,24 @@ https://github.com/user-attachments/assets/45fdd232-da11-4756-834e-fd4245a0e6ac
 - **Meow Button**: Hit the “meow” button,you can see a “meow,” your ears are blessed with a snippet of meow music, and an adorable cat story image is displayed to remind you that life has purpose.
   
 - **Meow Counter**: Always keep track , be on track, why we have a meow counter . Serves the purpose of visualising your progress.
+
 - **Reset**: In case you’ve gone overboard with the meows (it happens to the best of us), you can hit reset and come back to a place of zen (or the quiet before the next meow storm).
 
 - **Remove Meow**: Accidentally meowed too much? we understand, You can shave off a meow. Tragic, but necessary.
-# Screenshots
 
+# Screenshots
 
 ![Workings](public/sc1.png)
 
 The landing screen , ready to start the meows 
 
 ![Workings](public/sc2.png)
+
 Progress of Meows
 
+![Workings](public/sc3.png)
+
+Mobile view , why limit the meow harmony to one screen 
 
 
 ## Technical Details (For the Curious) 👨‍💻👩‍💻
