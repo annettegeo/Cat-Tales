@@ -52,8 +52,6 @@ Mobile view , why limit the meow harmony to one screen
   
 - **Vite**: Because waiting for bundling is so old , we are better than that . Vite is like the catnip of development tools, and you don’t know how you lived without it.
   
-- **Audio**: We used the finest recorded meows and created timestamps for that ultimate synchronized sound experience.
-  
 - **Timestamps**: Because even a meow symphony needs precision, every meow comes in on cue. 🎶
 
 ## How It Works 🤔
