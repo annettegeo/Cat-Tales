@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 
-// Import images
+// Importing images from images in src
 import img1 from './images/img1.jpeg';
 import img2 from './images/img2.jpeg';
 import img3 from './images/img3.jpeg';
@@ -25,7 +25,7 @@ import audioFile from './assets/meow.mp3';
 
 const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16, img17, img18, img19];
 
-// Function to return timestamps for each word in the audio
+//Returns timestamps for each word in the audio when the button is clicked
 const getWordTimestamps = () => {
   return [
     { start: 0.05, end: 1.00 },
@@ -84,10 +84,11 @@ function App() {
     // Stop the audio at the end time
     setTimeout(() => {
       audio.pause();
-      audio.currentTime = 0; // reset to start for next segment
+      audio.currentTime = 0; // resets to start for next segment
     }, (end - start) * 1000);
   };
 
+  // Function to add "meow", increment counters, and play audio segments
   const addMeow = () => {
     setText((prev) => prev + 'meow ');
     setCount((prev) => prev + 1);
@@ -96,7 +97,7 @@ function App() {
     if (timestampIndex < timestamps.length) {
       const { start, end } = timestamps[timestampIndex];
       playSegment(start, end);
-      setTimestampIndex((prev) => prev + 1);
+      setTimestampIndex((prev) => prev + 1);  // Move to the next timestamp
     }
   };
 
@@ -107,12 +108,13 @@ function App() {
     setTimestampIndex(0); // Reset timestamp index
   };
 
+  // Function to remove the last "meow" if it exists and revert image/timestamp indexes
   const removeMeow = () => {
     if (text.endsWith('meow ')) {
       setText((prev) => prev.slice(0, -5));
       setCount((prev) => (prev > 0 ? prev - 1 : 0));
       setImageIndex((prevIndex) => 
-        prevIndex > 0 ? prevIndex - 1 : images.length - 1
+        prevIndex > 0 ? prevIndex - 1 : images.length - 1 
       );
       setTimestampIndex((prev) => (prev > 0 ? prev - 1 : 0));
     }
@@ -120,8 +122,8 @@ function App() {
 
   useEffect(() => {
     return () => {
-      audio.pause();
-      audio.currentTime = 0;
+      audio.pause();  // Stop the audio
+      audio.currentTime = 0;  // Reset audio to start
     };
   }, [audio]);
 
