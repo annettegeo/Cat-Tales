@@ -2,6 +2,10 @@
 
 Welcome to **Meow Symphony**, the groundbreaking(far fetched) app that lets you orchestrate a choir of "meows" with just the power of… your index finger ! who knew clicking on a button could bring such joy (a specific kind)😸
 
+## Try it out ⏯️
+
+https://tranquil-bombolone-6ea3cd.netlify.app/
+
 
 ## Basic Details
 ### Team Name: HUSE
