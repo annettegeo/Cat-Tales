@@ -6,6 +6,8 @@ Welcome to **Meow Symphony**, the groundbreaking(far fetched) app that lets you 
 
 Ever wished you could compose an epic musical masterpiece made up entirely of cat meows? No? Well, now that idea exists in this world anyway, and you’re welcome. This app provides the perfect... or should i say purr-fecc... blend of uselessness and an existential realization of how far we’ve come with technology and all the ways to use it and make it useless — all while giving you an auditory adventure filled with endless(it ends , only if you wish it does ) meowing.
 
+https://github.com/user-attachments/assets/45fdd232-da11-4756-834e-fd4245a0e6ac
+
 ## What It Does 😹
 
 - **Meow Button**: Hit the “meow” button,you can see a “meow,” your ears are blessed with a snippet of meow music, and an adorable cat story image is displayed to remind you that life has purpose.
