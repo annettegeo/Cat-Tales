@@ -2,6 +2,10 @@
 
 Welcome to **Meow Symphony**, the groundbreaking(far fetched) app that lets you orchestrate a choir of "meows" with just the power of… your index finger ! who knew clicking on a button could bring such joy (a specific kind)😸
 
+## Try it out ⏯️
+
+https://tranquil-bombolone-6ea3cd.netlify.app/
+
 
 ## Basic Details
 ### Team Name: HUSE
@@ -51,8 +55,6 @@ Mobile view , why limit the meow harmony to one screen
 - **Audio**: We used the finest recorded meows from the finest kitties and created timestamps for that synchronized sound experience.
   
 - **Vite**: Because waiting for bundling is so old , we are better than that . Vite is like the catnip of development tools, and you don’t know how you lived without it.
-  
-- **Audio**: We used the finest recorded meows and created timestamps for that ultimate synchronized sound experience.
   
 - **Timestamps**: Because even a meow symphony needs precision, every meow comes in on cue. 🎶
 
